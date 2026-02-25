@@ -34,8 +34,8 @@ export default function Home() {
           <div><span className="font-caveat text-[16px] font-normal">Bloemgracht 170</span>,</div>
           <div><span className="font-caveat text-[16px] font-normal">1015 TV</span> Amsterdam</div>
         </div>
-        <div className="pointer-events-auto w-[68px] md:w-auto text-center md:text-left">
-          <a href="https://www.instagram.com/cafedemuurbloem/" target="_blank" rel="noopener noreferrer" className="text-[12px] font-bold hover:text-[#09f] hover:underline transition-colors">INSTAGRAM</a>
+        <div className="pointer-events-auto w-[68px] md:w-auto text-center md:text-left mx-auto md:mx-0">
+          <a href="https://www.instagram.com/cafedemuurbloem/" target="_blank" rel="noopener noreferrer" className="text-[12px] font-bold hover:text-[#09f] hover:underline transition-colors">@CAFEDEMUURBLOEM</a>
         </div>
         <div className="w-[26%] md:w-[139px] h-[42px] pointer-events-auto relative">
           <Image
@@ -77,9 +77,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="live" className="h-screen w-full relative overflow-hidden bg-black">
+      <section id="live" className="min-h-screen md:h-screen w-full relative overflow-hidden bg-black py-[120px] md:py-0 flex flex-col justify-center md:block">
         <Image src="/images/DSCF4217.JPG.jpeg" alt="Live Muziek Background" fill className="object-cover" />
-        <div className="absolute top-[200px] left-[15px] right-[15px] md:right-auto md:left-[50px] bg-black/60 p-4 md:p-6 max-h-[calc(100vh-240px)] overflow-y-auto md:max-w-[600px] z-10">
+        <div className="relative md:absolute md:top-[200px] mx-[15px] md:mx-0 md:left-[50px] bg-black/60 p-4 md:p-6 md:max-h-[calc(100vh-240px)] md:overflow-y-auto md:max-w-[600px] z-10">
           <h2 className="text-[28px] md:text-[52px] font-bold leading-none mb-4 uppercase">Live Music</h2>
           <div className="mb-6">
             <h3 className="text-xl font-bold mb-2">Tuesdays</h3>
