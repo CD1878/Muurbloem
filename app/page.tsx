@@ -87,6 +87,7 @@ export default function Home() {
               <p className="text-sm">Many years ago, the members of the Bruce Lim Trio met at a weekly jazz jam session in this historic café, formerly known as Jazzcafé 't Geveltje. Ever since that era, they have continued playing and growing together, frequenting various sessions around Amsterdam. With fond memories of those times, the Bruce Lim Trio and Café De Muurbloem are cultivating the spiritual successor to one of the best kept secret jazz jam sessions in Amsterdam. Come join us for a night of jazz, latin, fusion, and more!</p>
             </div>
           </div>
+        </div>
       </section>
 
       <section id="jobs" className="h-screen w-full relative overflow-hidden bg-black">
