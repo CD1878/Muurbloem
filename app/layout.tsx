@@ -1,11 +1,8 @@
-import type {Metadata} from 'next';
-import { Montserrat, Caveat } from 'next/font/google';
+import type { Metadata } from 'next';
+import { Caveat } from 'next/font/google';
 import './globals.css'; // Global styles
 
-const montserrat = Montserrat({
-  subsets: ['latin'],
-  variable: '--font-montserrat',
-});
+
 
 const caveat = Caveat({
   subsets: ['latin'],
@@ -17,9 +14,9 @@ export const metadata: Metadata = {
   description: 'WINE BAR & DJ SET',
 };
 
-export default function RootLayout({children}: {children: React.ReactNode}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${montserrat.variable} ${caveat.variable}`}>
+    <html lang="en" className={`${caveat.variable}`}>
       <body className="font-sans bg-black text-white antialiased selection:bg-white selection:text-black" suppressHydrationWarning>
         {children}
       </body>
