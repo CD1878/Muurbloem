@@ -51,11 +51,8 @@ export default function Home() {
       {/* Sections */}
       <section id="home" className="h-screen w-full relative overflow-hidden">
         <Image src="/images/DSCF3617.JPG.jpeg" alt="Home Background" fill className="object-cover" style={{ objectPosition: '47.8% 75.3%' }} priority />
-        <div className="absolute inset-0 bg-red-700/60 mix-blend-multiply z-[5]"></div>
-        <div className="absolute inset-0 bg-red-900/40 z-[5]"></div>
         <div className="absolute bottom-[130px] md:bottom-[373px] right-[15px] text-right text-[12px] md:text-[12px] text-[10px] sm:text-[12px] font-bold z-10">
-          MAANDAG - WOENSDAG: <span className="font-caveat md:text-[16px] text-[14px] font-normal">17:00</span> - <span className="font-caveat md:text-[16px] text-[14px] font-normal">01:00</span><br />
-          DONDERDAG: <span className="font-caveat md:text-[16px] text-[14px] font-normal">17:00</span> - <span className="font-caveat md:text-[16px] text-[14px] font-normal">02:00</span><br />
+          MAANDAG - DONDERDAG: <span className="font-caveat md:text-[16px] text-[14px] font-normal">17:00</span> - <span className="font-caveat md:text-[16px] text-[14px] font-normal">01:00</span><br />
           VRIJDAG - ZATERDAG: <span className="font-caveat md:text-[16px] text-[14px] font-normal">17:00</span> - <span className="font-caveat md:text-[16px] text-[14px] font-normal">03:00</span>
         </div>
         <div className="absolute bottom-[220px] md:bottom-[290px] left-[15px] font-bold z-10">
@@ -82,21 +79,14 @@ export default function Home() {
         <div className="relative md:absolute md:top-[200px] mx-[15px] md:mx-0 md:left-[50px] bg-black/60 p-4 md:p-6 md:max-h-[calc(100vh-240px)] md:overflow-y-auto md:max-w-[600px] z-10">
           <h2 className="text-[28px] md:text-[52px] font-bold leading-none mb-4 uppercase">Live Music</h2>
           <div className="mb-6">
-            <h3 className="text-xl font-bold mb-2">Tuesdays</h3>
-            <p className="font-bold mb-2">Vocal Jam Session @ Cafe de Muurbloem!</p>
-            <p className="mb-2 text-sm">Tuesdays 20:00 – 23:00</p>
-            <p className="text-sm mb-4">A unique jam session tailored for singers to shine with support from De Muurbloem house band. Join us for a cozy evening full of jazz, soul, latin, and more!</p>
-            <p className="text-xs font-bold uppercase">Note to singers:</p>
-            <p className="text-xs">If you would like to sing a non-standard tune with us, please send an email to:<br /><a href="mailto:muurbloem.music@gmail.com" className="text-[#09f] hover:underline transition-colors">muurbloem.music@gmail.com</a> with your chord chart or sheet music.</p>
+            <div>
+              <h3 className="text-xl font-bold mb-2">Wednesdays</h3>
+              <p className="font-bold mb-2">Jazz Jam Sessions at Café De Muurbloem,</p>
+              <p className="mb-2 text-sm">led by the Bruce Lim Trio.</p>
+              <p className="mb-2 text-sm">Every Wednesday evening from 20:00 – 23:00.</p>
+              <p className="text-sm">Many years ago, the members of the Bruce Lim Trio met at a weekly jazz jam session in this historic café, formerly known as Jazzcafé 't Geveltje. Ever since that era, they have continued playing and growing together, frequenting various sessions around Amsterdam. With fond memories of those times, the Bruce Lim Trio and Café De Muurbloem are cultivating the spiritual successor to one of the best kept secret jazz jam sessions in Amsterdam. Come join us for a night of jazz, latin, fusion, and more!</p>
+            </div>
           </div>
-          <div>
-            <h3 className="text-xl font-bold mb-2">Wednesdays</h3>
-            <p className="font-bold mb-2">Jazz Jam Sessions at Café De Muurbloem,</p>
-            <p className="mb-2 text-sm">led by the Bruce Lim Trio.</p>
-            <p className="mb-2 text-sm">Every Wednesday evening from 20:00 – 23:00.</p>
-            <p className="text-sm">Many years ago, the members of the Bruce Lim Trio met at a weekly jazz jam session in this historic café, formerly known as Jazzcafé 't Geveltje. Ever since that era, they have continued playing and growing together, frequenting various sessions around Amsterdam. With fond memories of those times, the Bruce Lim Trio and Café De Muurbloem are cultivating the spiritual successor to one of the best kept secret jazz jam sessions in Amsterdam. Come join us for a night of jazz, latin, fusion, and more!</p>
-          </div>
-        </div>
       </section>
 
       <section id="jobs" className="h-screen w-full relative overflow-hidden bg-black">
