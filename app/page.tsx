@@ -125,9 +125,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="contact" className="h-screen w-full relative overflow-hidden">
+      <section id="contact" className="h-[400px] md:h-screen w-full relative overflow-hidden">
         <Image src="/images/DSCF3651.JPG.jpeg" alt="Contact" fill className="object-cover" style={{ objectPosition: '47% 64.5%' }} />
-        <div className="absolute top-[200px] left-[15px] right-[15px] md:right-auto md:left-[50px] bg-black/60 p-4 md:p-6 max-w-[500px] z-10">
+        <div className="absolute top-[80px] md:top-[200px] left-[15px] right-[15px] md:right-auto md:left-[50px] bg-black/60 p-4 md:p-6 max-w-[500px] z-10">
           <h2 className="text-[34px] md:text-[52px] font-bold leading-none mb-6 uppercase">Contact</h2>
 
           <div className="flex flex-col gap-4 mb-4">
