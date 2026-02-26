@@ -51,6 +51,7 @@ export default function Home() {
       {/* Sections */}
       <section id="home" className="h-screen w-full relative overflow-hidden">
         <Image src="/images/DSCF3617.JPG.jpeg" alt="Home Background" fill className="object-cover" style={{ objectPosition: '47.8% 75.3%' }} priority />
+        <div className="absolute inset-0 bg-black/15 z-[5]"></div>
         <div className="absolute bottom-[130px] md:bottom-[373px] right-[15px] text-right text-[12px] md:text-[12px] text-[10px] sm:text-[12px] font-bold z-10">
           MAANDAG - DONDERDAG: <span className="font-caveat md:text-[16px] text-[14px] font-normal">17:00</span> - <span className="font-caveat md:text-[16px] text-[14px] font-normal">01:00</span><br />
           VRIJDAG - ZATERDAG: <span className="font-caveat md:text-[16px] text-[14px] font-normal">17:00</span> - <span className="font-caveat md:text-[16px] text-[14px] font-normal">03:00</span>
